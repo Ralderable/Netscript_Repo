@@ -1,3 +1,4 @@
+/** @param {NS} ns */
 export async function main(ns) {
     const scriptNames = ["accountant-mk1.js", "enabler-mk1.js", "disabler-mk1.js", "accountant-mk2.js", "enabler-mk2.js", "disabler-mk2.js"];
     const servers = scanAllServers(ns);
